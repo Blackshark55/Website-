@@ -1,0 +1,67 @@
+.contact {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url('47.jpg') no-repeat center center/cover; /* Add your background image */
+    padding: 4rem 2rem;
+    text-align: center;
+    color: #141414; /* White text for readability on dark background */
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #111010; /* Make header text white for contrast */
+  }
+  
+  .contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background for form */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact .form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  .contact label {
+    font-size: 1rem;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact input,
+  .contact textarea {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .contact textarea {
+    resize: vertical;
+    height: 150px;
+  }
+  
+  .contact .submit-btn {
+    padding: 1rem 2rem;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
